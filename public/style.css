@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------main-container work-------------- */
+
+.main-container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 30px auto;
+    position: relative;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* -------------------home-work---------------------- */
+
+.red-home{
+   height: 60%;
+   width: 40%;
+   background-color: red;
+   display: flex;
+   flex-direction: column;
+}
+
+.blue-home{
+    width: 60%;
+    height: 40%;
+    background-color: blue;
+    display: flex;
+}
+
+.green-home{
+    height: 40%;
+    width: 60%;
+    background-color: green;
+    display: flex;
+}
+
+.yellow-home{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
+/* ---------------------paths-work------------------------------ */
+
+.red-home-1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-path{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.blue-home-1{
+    width: 100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue-path{
+    width:  200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.green-home-1{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.green-path{
+    width:  100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.yellow-home-1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.yellow-path{
+    height:  100px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* ----------------box-works----------------- */
+
+.red-box{
+    height: 33.33%;
+    width: 16.66%;
+    border: 1px solid black;
+}
+
+.blue-box{
+    width: 33.33%;
+    height: 16.66%;
+    border: 1px solid black;
+}
+
+.green-box{
+    width: 33.33%;
+    height: 16.66%;
+    border: 1px solid black;
+}
+
+.yellow-box{
+    height: 33.33%;
+    width:  16.66%;
+    border: 1px solid black;
+}
+
+/* -----------dice area work-------------- */
+
+.red-dice-area{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-dice-area{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-dice-area{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-dice-area{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------dice work----------------- */
+.red-dices{
+    height: 35px;
+    width: 35px;
+    border: 6px solid red;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.blue-dices{
+    height: 35px;
+    width: 35px;
+    border: 6px solid blue;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+
+.green-dices{
+    height: 35px;
+    width: 35px;
+    border: 6px solid green;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.yellow-dices{
+    height: 35px;
+    width: 35px;
+    border: 6px solid yellow;
+    border-radius: 100%;
+    margin: 10px;
+}
